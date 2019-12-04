@@ -1,0 +1,49 @@
+
+\usepackage{amssymb}
+\usepackage[inner=2.2cm,outer=2.2cm,top=1.7cm,bottom=1.5cm]{geometry}
+\usepackage{tikz}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=10cm}
+
+\usepackage{lettrine}
+\usepackage{mathptmx}
+
+%indentazione
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\usepackage{sectsty,ulem} 
+\definecolor{color}{RGB}{145, 0, 37}
+\definecolor{linkc}{RGB}{0,200,200}
+
+\subsectionfont{\color{color}  }
+
+\usepackage[compact]{titlesec}
+\titlespacing{\subsection}{0pt}{7pt}{1pt}
+\renewcommand{\labelitemi}{\color{color}\raisebox{2pt}{\tiny $\bullet$}}
+
+\usepackage{marvosym}
+
+\setlist[itemize]{%
+  topsep=5pt,%               
+  itemsep=-1pt,%             
+  font={\normalfont},% 
+  leftmargin = 3.5mm
+}
+\setlist[description]{%
+  topsep=5pt,%
+  itemsep=0pt,%
+  font={\normalfont}, %
+  leftmargin = 5.5mm, %
+  labelindent=5pt %
+}
+\usepackage[itemsep=-1pt, topsep=5pt, leftmargin = 7mm, labelsep=3pt]{etaremune}
+
+\usepackage{verbatim}
+
+\usepackage[colorlinks=false,%
+allbordercolors={linkc},%
+pdfborderstyle={/S/U/W 1}]{hyperref}
+
+ 
+\usepackage{fancyhdr}
